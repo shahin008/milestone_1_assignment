@@ -1,23 +1,26 @@
 body{
     font-family: 'Heebo', sans-serif;
+    font-size: 18px;
 }
 h1{
     font-size: 60px;
-    border-left: 4px solid white;
-    border-image-source: linear-gradient(#F59660, yellow);
+    border-left: 5px solid white;
+    border-image-source: linear-gradient(#F59660,#F59666 );
     border-image-slice: 7;
     padding-left: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 #stay-focus-section{
     display: flex;
-    margin-top: 150px;
+    margin-top: 120px;
     margin-left: 10%;
-    text-align: justify;
     margin-bottom: 60px;
 }
-#mission-div{
+#mission-div-1{
     width: 50%;
     margin-right: 5%;
+    text-align: justify;
 }
 #person1-img{
     width: 60% ;
@@ -29,7 +32,11 @@ h1{
     margin-right: auto;
 
 }
-#mission-id{
+#mission-2022-section{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.mission-2022-class{
     color: darkcyan;
 }
 .button-class{
@@ -45,4 +52,133 @@ h2{
     font-size: 40px;
     text-align: center;
     font-weight: 900;
+}
+
+.mission-vision-goals{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 60px;
+}
+.mission-vision-goals-para{
+    border: 1px solid grey;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+    text-align: justify;
+
+}
+.mission-vision-goals-title{
+
+    font-weight: 900;
+    font-size: 30px;
+}
+.illustrators-class{
+    
+    width: 50%;
+    height: auto;
+}
+#mission-div{
+    background-color: rgb(240, 233, 169);
+    text-align: justify;
+    width: 30%;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    border: 0px solid black;
+    border-radius: 20px;
+
+}
+#vision-div{
+    background-color: rgb(238, 202, 202);
+    text-align: justify;
+    width: 30%;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    border: 0px solid black;
+    border-radius: 20px;
+
+}
+#goals-div{
+    background-color: rgb(163, 230, 163);
+    text-align: justify;
+    width: 30%;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    border: 0px solid black;
+    border-radius: 20px;
+
+}
+
+
+#develop-without-limit-section{
+    margin-left: 4%;
+    margin-right: 4%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+h3{
+    font-size: 40px;
+}
+#develop-without-limit-div{
+    width: 150%;
+    padding: 0;
+    margin-left: -100px;
+    margin-right: 10px;
+    height: 20%;
+}
+#coding-img{
+    width: 60%;
+    height: auto;
+    margin-left: 15%;
+    padding-left: 10px;
+
+}
+.develop-without-limit-para{
+    width: 80%;
+}
+#know-our-global-div{
+    width: 150%;
+    padding-left: 5%;
+    padding-right: 0;
+    margin-top: 20px;
+    margin-right: -100px;
+    margin-left: 20px;
+    height: 20%;
+}
+#project-img{
+    width: 60%;
+    height: auto;
+    margin-top: 50px;
+    margin-right: 4%;
+    margin-left: 5%;
+    padding-right: 10px;
+    padding-left: 20%;
+}
+#know-our-com-section{
+    margin-left: 4%;
+    margin-right: 4%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+#footer-section{
+    height: 160px;
+    background-color: rgb(17, 17, 29);
+    color: white;
+    text-align: center;
+    line-height: 15px;
+    
+}
+#footer-2022{
+    color: orangered;
+}
+h4{
+    padding-top: 40px;
+    font-size: 30px;
 }
