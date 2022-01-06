@@ -115,6 +115,10 @@ h2{
 
 
 #develop-without-limit-section{
+    background-position: left;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
     margin-left: 4%;
     margin-right: 4%;
     display: flex;
@@ -158,13 +162,18 @@ h3{
     margin-left: 5%;
     padding-right: 10px;
     padding-left: 20%;
+    padding-bottom: 100px;
 }
 #know-our-com-section{
+    background-image: url(images/shapes/shape-1.png);
+    background-position: right 5px bottom 20px;
+    background-size: 15%;
+    background-repeat: no-repeat;
     margin-left: 4%;
     margin-right: 4%;
     display: flex;
     flex-direction: row;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 #footer-section{
